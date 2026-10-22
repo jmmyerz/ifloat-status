@@ -10,7 +10,7 @@ sites:
     url: https://ifloatsensations.com
 
 status-website:
-  cname: status.ifloatogden.com
+  baseUrl: /ifloat-status
   logoUrl: https://www.ifloatogden.com/wp-content/uploads/2024/11/icon-rounded.png
   name: i-Float Ogden Status
 
