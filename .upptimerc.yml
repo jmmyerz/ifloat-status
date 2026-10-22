@@ -7,7 +7,7 @@ sites:
   - name: i-Float Ogden (redirect to www)
     url: https://ifloatogden.com
   - name: i-Float Sensations (redirect to ifloatogden.com)
-    url: https://sensations.com
+    url: https://ifloatsensations.com
 
 status-website:
   cname: status.ifloatogden.com
