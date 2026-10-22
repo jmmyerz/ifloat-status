@@ -4,18 +4,19 @@ repo: ifloat-status
 sites:
   - name: i-Float Ogden
     url: https://www.ifloatogden.com
-    expectedStatusCodes:
-      - 200
   - name: i-Float Ogden (redirect to www)
     url: https://ifloatogden.com
-    expectedStatusCodes:
-      - 301
   - name: i-Float Sensations (redirect to ifloatogden.com)
     url: https://sensations.com
-    expectedStatusCodes:
-      - 301
 
 status-website:
   cname: status.ifloatogden.com
   logoUrl: https://www.ifloatogden.com/wp-content/uploads/2024/11/icon-rounded.png
   name: i-Float Ogden Status
+
+secrets:
+  - NOTIFICATION_DISCORD
+  - NOTIFICATION_DISCORD_WEBHOOK_URL
+  - NOTIFICATION_EMAIL
+  - NOTIFICATION_EMAIL_FROM
+  - NOTIFICATION_EMAIL_TO
